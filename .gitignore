@@ -1,28 +1,23 @@
-# Compiled Object files
-*.slo
-*.lo
+*~
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+*.sw?
+.#*
+*#
+doc/html/
+doc/latex/
+Doxyfile
+sweb.kdev*
+CMakeFiles
+CMakeCache.txt
+*.cmake
+Makefile
+./bin
+info.file
+utils/bochs/bochsrc
+.settings
+.project
+.cproject
+.cdtproject
+.cdtbuild
+*.DS_Store
+*Thumbs.db
